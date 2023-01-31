@@ -1,0 +1,50 @@
+body {
+   margin: 0;
+}
+.all {
+   display: flex;
+   gap: 10px;
+}
+.backgound1 {
+   max-width: 500px;
+   min-width: 300px;
+   height: 400px;
+   border: 2px solid;
+   margin: 0 auto;
+   background: rgb(30,87,153);
+   background: -moz-linear-gradient(top,  rgb(30,87,153) 0%, rgb(188,35,30) 26%, rgb(32,124,202)   74%, rgb(125,185,232) 100%);
+   background: -webkit-linear-gradient(top,  rgb(30,87,153) 0%,rgb(188,35,30) 26%,rgb(32,124,202)  74%,rgb(125,185,232) 100%);
+   background: linear-gradient(to bottom,  rgb(30,87,153) 0%,rgb(188,35,30) 26%,rgb(32,124,202)    74%,rgb(125,185,232) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',   GradientType=0 );
+}
+.backgound2 {
+   max-width: 500px;
+   min-width: 300px;
+   height: 400px;
+   border: 2px solid;
+   margin: 0 auto;  
+   background: rgb(243,226,199);
+   background: -moz-linear-gradient(top,  rgb(243,226,199) 0%, rgb(193,158,103) 50%, rgb(182,141,  76) 51%, rgb(233,212,179) 100%);
+   background: -webkit-linear-gradient(top,  rgb(243,226,199) 0%,rgb(193,158,103) 50%,rgb(182,141, 76) 51%,rgb(233,212,179) 100%);
+   background: linear-gradient(to bottom,  rgb(243,226,199) 0%,rgb(193,158,103) 50%,rgb(182,141,   76) 51%,rgb(233,212,179) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',   GradientType=0 );
+}
+.backgound3 {
+   max-width: 500px;
+   min-width: 300px;
+   height: 400px;
+   border: 2px solid;
+   margin: 0 auto;
+   background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);
+   background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)   100%);
+   background: radial-gradient(ellipse at center,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000',   endColorstr='#00000000',GradientType=1 );  
+}
+.backgound4 {
+   max-width: 500px;
+   min-width: 300px;
+   height: 400px;
+   border: 2px solid;
+   margin: 0 auto;  
+   background-image: url(img/81.jpg);
+}

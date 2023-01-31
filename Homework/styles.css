@@ -1,0 +1,43 @@
+body {
+   margin: 0;
+   background: #ebe9f9;
+   background: -moz-linear-gradient(top,  hsla(248,57%,95%,1) 0%, hsla(255,49%,88%,1)  29%, hsla(251,49%,85%,1) 74%, hsla(243,51%,83%,1) 100%);
+   background: -webkit-linear-gradient(top,  hsla(248,57%,95%,1) 0%,hsla(255,49%,88%,1)   29%,hsla(251,49%,85%,1) 74%,hsla(243,51%,83%,1) 100%);
+   background: linear-gradient(to bottom,  hsla(248,57%,95%,1) 0%,hsla(255,49%,88%,1)  29%,hsla(251,49%,85%,1) 74%,hsla(243,51%,83%,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9',  endColorstr='#c1bfea',GradientType=0 );
+}
+.container {
+   max-width: 1280px;
+   margin: 0 auto;
+   margin-top: 168px;
+   font-size: 16px;
+}
+.start_text {
+   text-align: center;
+}
+.container_img {
+   margin-top: 100px;
+   outline: 10px solid hsla(0, 32%, 36%, 0.753);
+   border: 1px solid black;
+}
+.center_img {
+   width: 100%;
+   height: 100%;
+}
+.text_size {
+   font-size: 24px;
+   margin-top: 100px;
+}
+.text_size p, .text_size div {
+   margin-top: 60px;
+}
+.text_size p:first-child {
+   margin-top: 0;
+}
+.list_ul {
+   list-style-type: none;
+}
+.list_ul li {
+   background: url(../css_5/img/icons/li.svg) left 7px no-repeat;
+   padding-left: 25px;
+}
